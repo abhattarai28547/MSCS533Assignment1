@@ -184,6 +184,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 });
               }
             ),
+
+            const Text('From'),
             
             DropdownButton<String>(
               value: selectedUnitFrom,
@@ -194,6 +196,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 }); 
               },
             ),
+            const Text('From'),
+            
             DropdownButton<String>(
               value: selectedUnitTo,
               items: getUnits(selectedMeasure),
